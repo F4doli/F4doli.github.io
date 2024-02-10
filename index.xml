@@ -9,6 +9,126 @@
     <copyright>© 2024 Jules</copyright>
     <lastBuildDate>Fri, 09 Feb 2024 23:14:25 +0100</lastBuildDate><atom:link href="https://F4doli.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Veeam s&#39;intéresse à la sauvegarde de Proxmox</title>
+      <link>https://F4doli.github.io/veilles/proxmox/</link>
+      <pubDate>Sat, 10 Feb 2024 12:50:41 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/veilles/proxmox/</guid>
+      <description>Qu&amp;rsquo;est-ce que Veeam et Proxmox ?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/veilles/proxmox/featured.png" />
+    </item>
+    
+    <item>
+      <title>Vulnérabilité dans Jenkins</title>
+      <link>https://F4doli.github.io/veilles/jenkins/</link>
+      <pubDate>Sat, 10 Feb 2024 12:48:53 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/veilles/jenkins/</guid>
+      <description>Qu&amp;rsquo;est-ce que Jenkins ?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/veilles/jenkins/featured.png" />
+    </item>
+    
+    <item>
+      <title>Vlans sur PfSense et Proxmox</title>
+      <link>https://F4doli.github.io/projets/pfsense/vlans/</link>
+      <pubDate>Sat, 10 Feb 2024 12:44:46 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/pfsense/vlans/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment créer des vlans sur PfSense avec l&amp;rsquo;hypserviseur Proxmox.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/pfsense/vlans/featured.png" />
+    </item>
+    
+    <item>
+      <title>Installer Suricata sur PfSense</title>
+      <link>https://F4doli.github.io/projets/pfsense/suricata/</link>
+      <pubDate>Sat, 10 Feb 2024 12:43:03 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/pfsense/suricata/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment installer l&amp;rsquo;IDS/IPS Suricata en tant que package sur PfSense.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/pfsense/suricata/featured.png" />
+    </item>
+    
+    <item>
+      <title>Installation de PfSense sous Proxmox</title>
+      <link>https://F4doli.github.io/projets/pfsense/installation/</link>
+      <pubDate>Sat, 10 Feb 2024 12:36:35 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/pfsense/installation/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment installer PfSense dans un machine virtuelle sur l&amp;rsquo;hyperviseur Proxmox.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/pfsense/installation/featured.png" />
+    </item>
+    
+    <item>
+      <title>Redondance avec 2 PfSense</title>
+      <link>https://F4doli.github.io/projets/pfsense/cluster/</link>
+      <pubDate>Sat, 10 Feb 2024 12:32:16 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/pfsense/cluster/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment créer de la redondance à l&amp;rsquo;aide de deux PfSense et du protocole CARP et XMLRPC.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/pfsense/cluster/featured.png" />
+    </item>
+    
+    <item>
+      <title>Utiliser PfSense comme autorité de certification</title>
+      <link>https://F4doli.github.io/projets/pfsense/certificat/</link>
+      <pubDate>Sat, 10 Feb 2024 12:28:23 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/pfsense/certificat/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment utiliser PfSense en tant qu&amp;rsquo;autorité de certification et comment déployer des certificats.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/pfsense/certificat/featured.png" />
+    </item>
+    
+    <item>
+      <title>Modification du Virtual Host</title>
+      <link>https://F4doli.github.io/projets/zabbix/vhost/</link>
+      <pubDate>Sat, 10 Feb 2024 12:24:44 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/zabbix/vhost/</guid>
+      <description>Dans cette très courte documentation, vous trouverez une explication afin de modifier le virtual host dans Apache pour que zabbix soit accessible directement depuis l&amp;rsquo;adresse, sans rajouter /zabbix à la fin.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/zabbix/vhost/featured.png" />
+    </item>
+    
+    <item>
+      <title>Installation et ajout d&#39;un hôte Windows dans Zabbix</title>
+      <link>https://F4doli.github.io/projets/zabbix/installation/</link>
+      <pubDate>Sat, 10 Feb 2024 12:22:06 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/zabbix/installation/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment installer la solution Zabbix sur une machine virtuelle Debian et comment superviser un hôte Windows.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/zabbix/installation/featured.png" />
+    </item>
+    
+    <item>
+      <title>Sauvegarde de GLPI</title>
+      <link>https://F4doli.github.io/projets/glpi/sauvegarde/</link>
+      <pubDate>Sat, 10 Feb 2024 12:13:57 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/glpi/sauvegarde/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment sauvegarder GLPI et explique certains outils.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/glpi/sauvegarde/featured.png" />
+    </item>
+    
+    <item>
+      <title>Installation de GLPI sur Debian</title>
+      <link>https://F4doli.github.io/projets/glpi/installation/</link>
+      <pubDate>Sat, 10 Feb 2024 12:11:38 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/glpi/installation/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment installer la solution GLPI sur une machine virtuelle Debian.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/glpi/installation/featured.png" />
+    </item>
+    
+    <item>
+      <title>Création d&#39;utilisateurs et de profils</title>
+      <link>https://F4doli.github.io/projets/glpi/creation-profil/</link>
+      <pubDate>Sat, 10 Feb 2024 12:09:13 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/glpi/creation-profil/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment créer des utilisateurs et des profils depuis l&amp;rsquo;interface web de GLPI.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/glpi/creation-profil/featured.png" />
+    </item>
+    
+    <item>
       <title>MOOC DRSD</title>
       <link>https://F4doli.github.io/certifications/drsd/</link>
       <pubDate>Sat, 10 Feb 2024 11:30:38 +0100</pubDate>

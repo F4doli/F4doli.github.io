@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation GLPI on Portfolio</title>
+    <link>https://F4doli.github.io/projets/glpi/</link>
+    <description>Recent content in Documentation GLPI on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>© 2024 Jules</copyright>
+    <lastBuildDate>Sat, 10 Feb 2024 12:06:40 +0100</lastBuildDate><atom:link href="https://F4doli.github.io/projets/glpi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sauvegarde de GLPI</title>
+      <link>https://F4doli.github.io/projets/glpi/sauvegarde/</link>
+      <pubDate>Sat, 10 Feb 2024 12:13:57 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/glpi/sauvegarde/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment sauvegarder GLPI et explique certains outils.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/glpi/sauvegarde/featured.png" />
+    </item>
+    
+    <item>
+      <title>Installation de GLPI sur Debian</title>
+      <link>https://F4doli.github.io/projets/glpi/installation/</link>
+      <pubDate>Sat, 10 Feb 2024 12:11:38 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/glpi/installation/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment installer la solution GLPI sur une machine virtuelle Debian.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/glpi/installation/featured.png" />
+    </item>
+    
+    <item>
+      <title>Création d&#39;utilisateurs et de profils</title>
+      <link>https://F4doli.github.io/projets/glpi/creation-profil/</link>
+      <pubDate>Sat, 10 Feb 2024 12:09:13 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/glpi/creation-profil/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment créer des utilisateurs et des profils depuis l&amp;rsquo;interface web de GLPI.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/glpi/creation-profil/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

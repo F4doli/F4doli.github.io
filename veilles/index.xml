@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Veille Technologique on Portfolio</title>
+    <link>https://F4doli.github.io/veilles/</link>
+    <description>Recent content in Veille Technologique on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>© 2024 Jules</copyright>
+    <lastBuildDate>Sat, 10 Feb 2024 12:47:08 +0100</lastBuildDate><atom:link href="https://F4doli.github.io/veilles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Veeam s&#39;intéresse à la sauvegarde de Proxmox</title>
+      <link>https://F4doli.github.io/veilles/proxmox/</link>
+      <pubDate>Sat, 10 Feb 2024 12:50:41 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/veilles/proxmox/</guid>
+      <description>Qu&amp;rsquo;est-ce que Veeam et Proxmox ?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/veilles/proxmox/featured.png" />
+    </item>
+    
+    <item>
+      <title>Vulnérabilité dans Jenkins</title>
+      <link>https://F4doli.github.io/veilles/jenkins/</link>
+      <pubDate>Sat, 10 Feb 2024 12:48:53 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/veilles/jenkins/</guid>
+      <description>Qu&amp;rsquo;est-ce que Jenkins ?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/veilles/jenkins/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
