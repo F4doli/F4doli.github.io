@@ -9,6 +9,36 @@
     <copyright>© 2024 Jules</copyright>
     <lastBuildDate>Fri, 09 Feb 2024 23:14:25 +0100</lastBuildDate><atom:link href="https://F4doli.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>MOOC DRSD</title>
+      <link>https://F4doli.github.io/certifications/drsd/</link>
+      <pubDate>Sat, 10 Feb 2024 11:30:38 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/certifications/drsd/</guid>
+      <description>Qu&amp;rsquo;est-ce que le MOOC de la DRSD ?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/certifications/drsd/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>eJPT</title>
+      <link>https://F4doli.github.io/certifications/ejpt/</link>
+      <pubDate>Sat, 10 Feb 2024 11:23:46 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/certifications/ejpt/</guid>
+      <description>Qu&amp;rsquo;est-ce que l&amp;rsquo;eJPT ?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/certifications/ejpt/featured.png" />
+    </item>
+    
+    <item>
+      <title>MOOC ANSSI</title>
+      <link>https://F4doli.github.io/certifications/anssi/</link>
+      <pubDate>Sat, 10 Feb 2024 10:56:17 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/certifications/anssi/</guid>
+      <description>Qu&amp;rsquo;est-ce que le MOOC de l&amp;rsquo;ANSSI ?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/certifications/anssi/featured.png" />
+    </item>
+    
+    <item>
       <title>Hack_The_Box - Dante</title>
       <link>https://F4doli.github.io/certifications/dante/</link>
       <pubDate>Sat, 10 Feb 2024 10:44:37 +0100</pubDate>
