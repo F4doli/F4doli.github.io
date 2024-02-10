@@ -2,18 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bienvenue sur mon Portfolio on Portfolio</title>
-    <link>https://f4doli.xyz/</link>
+    <link>https://F4doli.github.io/</link>
     <description>Recent content in Bienvenue sur mon Portfolio on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <copyright>© 2024 Jules</copyright>
-    <lastBuildDate>Fri, 09 Feb 2024 23:14:25 +0100</lastBuildDate><atom:link href="https://f4doli.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Feb 2024 23:14:25 +0100</lastBuildDate><atom:link href="https://F4doli.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hack_The_Box - Dante</title>
+      <link>https://F4doli.github.io/certifications/dante/</link>
+      <pubDate>Sat, 10 Feb 2024 10:44:37 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/certifications/dante/</guid>
+      <description>Qu&amp;rsquo;est-ce que le prolab DANTE ?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/certifications/dante/featured.png" />
+    </item>
+    
+    <item>
+      <title>Qu&#39;est-ce que le BTS SIO ?</title>
+      <link>https://F4doli.github.io/bts-sio/</link>
+      <pubDate>Sat, 10 Feb 2024 09:55:48 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/bts-sio/</guid>
+      <description>Le Breve de Technicien Supérieur Services Informatiques aux Organisations à pour but de former les étudiants aux métiers d&amp;rsquo;administrateur réseau ou de développeur et il comporte deux spécialités.</description>
+      
+    </item>
+    
     <item>
       <title>A propos</title>
-      <link>https://f4doli.xyz/a-propos/</link>
+      <link>https://F4doli.github.io/a-propos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://f4doli.xyz/a-propos/</guid>
+      <guid>https://F4doli.github.io/a-propos/</guid>
       <description>Qui suis-je ?</description>
       
     </item>
