@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projet - Windows Serveur on Portfolio</title>
+    <link>https://F4doli.github.io/projets/windows_serveur/</link>
+    <description>Recent content in Projet - Windows Serveur on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>© 2024 Jules</copyright>
+    <lastBuildDate>Mon, 26 Feb 2024 09:11:39 +0100</lastBuildDate><atom:link href="https://F4doli.github.io/projets/windows_serveur/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ajout d&#39;un sous domaine au sein d&#39;un domaine local</title>
+      <link>https://F4doli.github.io/projets/windows_serveur/sous-domaine/</link>
+      <pubDate>Mon, 26 Feb 2024 09:34:55 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/windows_serveur/sous-domaine/</guid>
+      <description>Cette procédure est certe très courte, mais elle s&amp;rsquo;avère d&amp;rsquo;une utilité remarquable afin de pouvoir structurer son réseau.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/windows_serveur/sous-domaine/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Création d&#39;un serveur WDS autonome</title>
+      <link>https://F4doli.github.io/projets/windows_serveur/wds-autonome/</link>
+      <pubDate>Mon, 26 Feb 2024 09:30:11 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/windows_serveur/wds-autonome/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment créer un serveur WDS autonome, qui fonctionne sans DHCP et Active Directory.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/windows_serveur/wds-autonome/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Installation des rôles AD DS &amp; DNS</title>
+      <link>https://F4doli.github.io/projets/windows_serveur/install-ad/</link>
+      <pubDate>Mon, 26 Feb 2024 09:20:14 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/windows_serveur/install-ad/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment ajouter les rôles AD DS &amp;amp; DNS dans le but de créer son serveur Active Directory.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/windows_serveur/install-ad/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

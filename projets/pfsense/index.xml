@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Documentation PfSense on Portfolio</title>
+    <title>Projet - PfSense on Portfolio</title>
     <link>https://F4doli.github.io/projets/pfsense/</link>
-    <description>Recent content in Documentation PfSense on Portfolio</description>
+    <description>Recent content in Projet - PfSense on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <copyright>© 2024 Jules</copyright>
     <lastBuildDate>Sat, 10 Feb 2024 12:26:20 +0100</lastBuildDate><atom:link href="https://F4doli.github.io/projets/pfsense/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Création d&#39;une DMZ</title>
+      <link>https://F4doli.github.io/projets/pfsense/dmz/</link>
+      <pubDate>Mon, 26 Feb 2024 09:05:59 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/pfsense/dmz/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment créer une DMZ dans PfSense.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/pfsense/dmz/featured.png" />
+    </item>
+    
     <item>
       <title>Vlans sur PfSense et Proxmox</title>
       <link>https://F4doli.github.io/projets/pfsense/vlans/</link>

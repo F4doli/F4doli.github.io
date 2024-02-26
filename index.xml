@@ -9,6 +9,66 @@
     <copyright>© 2024 Jules</copyright>
     <lastBuildDate>Fri, 09 Feb 2024 23:14:25 +0100</lastBuildDate><atom:link href="https://F4doli.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Lockbit saisit par les autorités</title>
+      <link>https://F4doli.github.io/veilles/lockbit/</link>
+      <pubDate>Mon, 26 Feb 2024 11:24:59 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/veilles/lockbit/</guid>
+      <description>L&amp;rsquo;opération Cronos # L&amp;rsquo;opération Cronos ayant eu lieu le 19 février 2024 et rassemblant plusieurs états dont la France à réussi à saisir plusieurs serveurs de LockBit et en plus de cela, ils ont réussi à mettre le site web hors d&amp;rsquo;usage !</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/veilles/lockbit/featured.png" />
+    </item>
+    
+    <item>
+      <title>Projet - Migration antivirus</title>
+      <link>https://F4doli.github.io/projets/antivirus/</link>
+      <pubDate>Mon, 26 Feb 2024 10:07:12 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/antivirus/</guid>
+      <description>Durant ma première année au sein de COBO Informatique, entreprise ou j&amp;rsquo;effectue mon alternance, j&amp;rsquo;ai eu l&amp;rsquo;opportunité de participer au salon IT Partners.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/antivirus/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Ajout d&#39;un sous domaine au sein d&#39;un domaine local</title>
+      <link>https://F4doli.github.io/projets/windows_serveur/sous-domaine/</link>
+      <pubDate>Mon, 26 Feb 2024 09:34:55 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/windows_serveur/sous-domaine/</guid>
+      <description>Cette procédure est certe très courte, mais elle s&amp;rsquo;avère d&amp;rsquo;une utilité remarquable afin de pouvoir structurer son réseau.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/windows_serveur/sous-domaine/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Création d&#39;un serveur WDS autonome</title>
+      <link>https://F4doli.github.io/projets/windows_serveur/wds-autonome/</link>
+      <pubDate>Mon, 26 Feb 2024 09:30:11 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/windows_serveur/wds-autonome/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment créer un serveur WDS autonome, qui fonctionne sans DHCP et Active Directory.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/windows_serveur/wds-autonome/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Installation des rôles AD DS &amp; DNS</title>
+      <link>https://F4doli.github.io/projets/windows_serveur/install-ad/</link>
+      <pubDate>Mon, 26 Feb 2024 09:20:14 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/windows_serveur/install-ad/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment ajouter les rôles AD DS &amp;amp; DNS dans le but de créer son serveur Active Directory.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/windows_serveur/install-ad/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Création d&#39;une DMZ</title>
+      <link>https://F4doli.github.io/projets/pfsense/dmz/</link>
+      <pubDate>Mon, 26 Feb 2024 09:05:59 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/pfsense/dmz/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment créer une DMZ dans PfSense.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/pfsense/dmz/featured.png" />
+    </item>
+    
+    <item>
       <title>Veeam s&#39;intéresse à la sauvegarde de Proxmox</title>
       <link>https://F4doli.github.io/veilles/proxmox/</link>
       <pubDate>Sat, 10 Feb 2024 12:50:41 +0100</pubDate>
