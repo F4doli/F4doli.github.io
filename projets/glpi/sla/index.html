@@ -8,16 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Projet - PfSense &middot; Portfolio</title>
-  <meta name="title" content="Projet - PfSense &middot; Portfolio" />
+  <title>Création de SLAs &middot; Portfolio</title>
+  <meta name="title" content="Création de SLAs &middot; Portfolio" />
   
   
   
   
   
-  <link rel="canonical" href="https://F4doli.github.io/projets/pfsense/" />
-  
-  <link rel="alternate" type="application/rss+xml" href="/projets/pfsense/index.xml" title="Portfolio" />
+  <link rel="canonical" href="https://F4doli.github.io/projets/glpi/sla/" />
   
   
   
@@ -54,18 +52,47 @@
   
   
   
-  <meta property="og:title" content="Projet - PfSense" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://F4doli.github.io/projets/pfsense/" /><meta property="og:image" content="https://F4doli.github.io/projets/pfsense/featured.png" />
+  <meta property="og:title" content="Création de SLAs" />
+<meta property="og:description" content="Cette documentation à pour but d&rsquo;expliquer comment mettre en place un système de SLAs et faire en sorte que celles-ci soient attribuées de manière automatique à l&rsquo;aide des règles GLPI." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://F4doli.github.io/projets/glpi/sla/" /><meta property="og:image" content="https://F4doli.github.io/projets/glpi/sla/featured.png" /><meta property="article:section" content="projets" />
+<meta property="article:published_time" content="2024-03-09T20:23:20+01:00" />
+<meta property="article:modified_time" content="2024-03-09T20:23:20+01:00" />
 
 
   <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://F4doli.github.io/projets/pfsense/featured.png" /><meta name="twitter:title" content="Projet - PfSense"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:image" content="https://F4doli.github.io/projets/glpi/sla/featured.png" /><meta name="twitter:title" content="Création de SLAs"/>
+<meta name="twitter:description" content="Cette documentation à pour but d&rsquo;expliquer comment mettre en place un système de SLAs et faire en sorte que celles-ci soient attribuées de manière automatique à l&rsquo;aide des règles GLPI."/>
 
   
-  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Projets",
+    "name": "Création de SLAs",
+    "headline": "Création de SLAs",
+    
+    "abstract": "Cette documentation à pour but d\u0026rsquo;expliquer comment mettre en place un système de SLAs et faire en sorte que celles-ci soient attribuées de manière automatique à l\u0026rsquo;aide des règles GLPI.",
+    "inLanguage": "fr",
+    "url" : "https:\/\/F4doli.github.io\/projets\/glpi\/sla\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Jules"
+    },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-03-09T20:23:20\u002b01:00",
+    "datePublished": "2024-03-09T20:23:20\u002b01:00",
+    
+    "dateModified": "2024-03-09T20:23:20\u002b01:00",
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "60"
+  }]
+  </script>
+
 
   
   
@@ -406,10 +433,13 @@
       
 
 
-
-
-
-
+<article>
+  
+  
+  
+  
+  
+  
 
 
 <div id="hero" class="h-[150px] md:h-[200px]"></div>
@@ -417,7 +447,7 @@
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/projets/pfsense/featured_hu5db8b51a672143d1789dfd0dd6c77d52_189416_1200x0_resize_box_3.png);">
+    style="background-image:url(/projets/glpi/sla/featured_hufce93f444ab29a768a51ff23681c381f_7474_1200x0_resize_box_3.png);">
     
 
 
@@ -437,11 +467,23 @@
     });
 </script>
 
- <header>
   
-  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Projet - PfSense</h1>
-  <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+
+  <header id="single_header" class="mt-5 max-w-prose">
     
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      Création de SLAs
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
+
+
+
+
+
+  
+  
 
 
 
@@ -453,6 +495,11 @@
 
 
 
+  
+
+
+
+  
 
 
 
@@ -460,136 +507,39 @@
 
 
 
+
+
+
+
+  
 
 
 
 <div class="flex flex-row flex-wrap items-center">
   
   
-</div>
+  <span>60 mots</span><span class="px-2 text-primary-500">&middot;</span><span title="Temps de lecture">1 min</span><span class="px-2 text-primary-500">&middot;</span>
 
 
-  </div>
-  
-  <script>
-    var oid = "views_projets\/pfsense\/_index.md"
-    var oid_likes = "likes_projets\/pfsense\/_index.md"
-  </script>
-  
-  
-  
-  <script type="text/javascript" src="/js/page.min.5b1bad196a6075a1e11bae1dc95f24f67b610948a00525e347566c5a62338ea78f1c7224ab9a53873dcdb2a1a7d7d391b8a8ef45561297f68806c01315b0c4f6.js" integrity="sha512-WxutGWpgdaHhG64dyV8k9nthCUigBSXjR1ZsWmIzjqePHHIkq5pThz3NsqGn19ORuKjvRVYSl/aIBsATFbDE9g=="></script>
-  </header>
-  <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
-    
-    <div class="min-w-0 min-h-0 max-w-prose">
-      
-<div class="flex mt-2">
-<span
-  class="rounded-full bg-primary-500 dark:bg-primary-400 text-neutral-50 dark:text-neutral-800 px-1.5 py-[1px] text-xs font-normal"
->
-  <span class="flex flex-row items-center">
-    
-    <span>Réalisation en formation</span>
+<script type="text/javascript" src="/js/zen-mode.min.16f2e42a0014d476212e14c056b26b69bc85cb5de15352a5e3a1a0be498055dc1bf0926cef44baef1cc7fa2dfc5de0052892645cd3766598065f47b15c4bd44d.js" integrity="sha512-FvLkKgAU1HYhLhTAVrJrabyFy13hU1Kl46GgvkmAVdwb8JJs70S67xzH&#43;i38XeAFKJJkXNN2ZZgGX0exXEvUTQ=="></script>
+
+<span class="mb-[2px]">
+    <span id="zen-mode-button"
+          class="text-lg hover:text-primary-500"
+          title="Activer le mode zen"
+          data-title-i18n-disable="Activer le mode zen"
+          data-title-i18n-enable="Désactiver le mode zen">
+        <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
+    <path fill="currentColor" d="M 12.980469 4 C 9.1204688 4 5.9804688 7.14 5.9804688 11 L 6 26 L 9.9804688 26 L 9.9804688 11 C 9.9804688 9.35 11.320469 8 12.980469 8 L 40.019531 8 C 41.679531 8 43.019531 9.35 43.019531 11 L 43.019531 39 C 43.019531 40.65 41.679531 42 40.019531 42 L 29 42 C 29 43.54 28.420938 44.94 27.460938 46 L 40.019531 46 C 43.879531 46 47.019531 42.86 47.019531 39 L 47.019531 11 C 47.019531 7.14 43.879531 4 40.019531 4 L 12.980469 4 z M 7 28 C 4.794 28 3 29.794 3 32 L 3 42 C 3 44.206 4.794 46 7 46 L 23 46 C 25.206 46 27 44.206 27 42 L 27 32 C 27 29.794 25.206 28 23 28 L 7 28 z M 7 32 L 23 32 L 23.001953 42 L 7 42 L 7 32 z"/>
+</svg>
   </span>
+
 </span>
-</div>
-<p>Vous trouverez ici les documentations que j&rsquo;ai réalisé en lien avec PfSense afin de pouvoir mener à bien le projet E5 durant mes périodes scolaires.</p>
-
-    </div>
-   
-
-
-
-  </section>
-  
-
-    
-    
-    
-
-    
-
-    <section class="space-y-10 w-full">
-      
-      
-      
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/projets/pfsense/haproxy/">
-    
-        
-        <div class="w-full md:w-auto h-full thumbnail nozoom " style="background-image:url(/projets/pfsense/haproxy/featured_hu05956f317fd9f9d9b8645105397f3624_50538_600x0_resize_q75_box.jpg);"></div>
-        
-      <div class=" p-4">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/projets/pfsense/haproxy/">Equilibrage de charge avec Haproxy</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <span>69 mots</span><span class="px-2 text-primary-500">&middot;</span><span title="Temps de lecture">1 min</span>
+    </span>
+</span>
   
 
   
@@ -602,579 +552,72 @@
 
 
 
-      </div>
-      
     </div>
-  </a>
-      
-      
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/projets/pfsense/dmz/">
     
-        
-        <div class="w-full md:w-auto h-full thumbnail nozoom " style="background-image:url(/projets/pfsense/dmz/featured_hu5db8b51a672143d1789dfd0dd6c77d52_189416_600x0_resize_box_3.png);"></div>
-        
-      <div class=" p-4">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/projets/pfsense/dmz/">Création d'une DMZ</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <span>55 mots</span><span class="px-2 text-primary-500">&middot;</span><span title="Temps de lecture">1 min</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
-      
-    </div>
-  </a>
-      
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/projets/pfsense/vlans/">
     
-        
-        <div class="w-full md:w-auto h-full thumbnail nozoom " style="background-image:url(/projets/pfsense/vlans/featured_hu5db8b51a672143d1789dfd0dd6c77d52_189416_600x0_resize_box_3.png);"></div>
-        
-      <div class=" p-4">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/projets/pfsense/vlans/">Vlans sur PfSense et Proxmox</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <span>46 mots</span><span class="px-2 text-primary-500">&middot;</span><span title="Temps de lecture">1 min</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
-      
-    </div>
-  </a>
-      
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/projets/pfsense/suricata/">
     
-        
-        <div class="w-full md:w-auto h-full thumbnail nozoom " style="background-image:url(/projets/pfsense/suricata/featured_hu7e9b89f263a1768c1a528890e74085c8_18429_600x0_resize_box_3.png);"></div>
-        
-      <div class=" p-4">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/projets/pfsense/suricata/">Installer Suricata sur PfSense</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <span>47 mots</span><span class="px-2 text-primary-500">&middot;</span><span title="Temps de lecture">1 min</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
-      
-    </div>
-  </a>
-      
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/projets/pfsense/installation/">
     
-        
-        <div class="w-full md:w-auto h-full thumbnail nozoom " style="background-image:url(/projets/pfsense/installation/featured_hu5db8b51a672143d1789dfd0dd6c77d52_189416_600x0_resize_box_3.png);"></div>
-        
-      <div class=" p-4">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/projets/pfsense/installation/">Installation de PfSense sous Proxmox</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <span>55 mots</span><span class="px-2 text-primary-500">&middot;</span><span title="Temps de lecture">1 min</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
-      
-    </div>
-  </a>
-      
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/projets/pfsense/cluster/">
     
-        
-        <div class="w-full md:w-auto h-full thumbnail nozoom " style="background-image:url(/projets/pfsense/cluster/featured_hu5db8b51a672143d1789dfd0dd6c77d52_189416_600x0_resize_box_3.png);"></div>
-        
-      <div class=" p-4">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/projets/pfsense/cluster/">Redondance avec 2 PfSense</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <span>67 mots</span><span class="px-2 text-primary-500">&middot;</span><span title="Temps de lecture">1 min</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
-      
-    </div>
-  </a>
-      
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/projets/pfsense/certificat/">
     
+
+    
+
+    
+
+    
+  
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+    
+
+      <div class="min-w-0 min-h-0 max-w-fit">
         
-        <div class="w-full md:w-auto h-full thumbnail nozoom " style="background-image:url(/projets/pfsense/certificat/featured_hu5db8b51a672143d1789dfd0dd6c77d52_189416_600x0_resize_box_3.png);"></div>
         
-      <div class=" p-4">
-      <div class="items-center text-left text-xl font-semibold">
+
+
+        <div class="article-content max-w-prose mb-20">
+          <p>Cette documentation à pour but d&rsquo;expliquer comment mettre en place un système de SLAs et faire en sorte que celles-ci soient attribuées de manière automatique à l&rsquo;aide des règles GLPI.<br>
+Les points abordés dans la procédure sont les suivants :</p>
+<ul>
+<li><strong>Création d&rsquo;un calendrier</strong></li>
+<li><strong>Création des SLAs</strong></li>
+<li><strong>Création des règles pour les SLAs</strong></li>
+</ul>
+<p>Vous pouvez retrouver la documentation en cliquant <a href="glpi-sla.pdf"  >
+    ici</a></p>
+
+        </div>
+                
         
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/projets/pfsense/certificat/">Utiliser PfSense comme autorité de certification</div>
+
         
-        
-        
+
+          
       </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <span>70 mots</span><span class="px-2 text-primary-500">&middot;</span><span title="Temps de lecture">1 min</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
-      
-    </div>
-  </a>
+     
+    
+     <script>
+        var oid = "views_projets\/glpi\/sla\/index.md"
+        var oid_likes = "likes_projets\/glpi\/sla\/index.md"
+      </script>
       
       
+      
+      <script type="text/javascript" src="/js/page.min.5b1bad196a6075a1e11bae1dc95f24f67b610948a00525e347566c5a62338ea78f1c7224ab9a53873dcdb2a1a7d7d391b8a8ef45561297f68806c01315b0c4f6.js" integrity="sha512-WxutGWpgdaHhG64dyV8k9nthCUigBSXjR1ZsWmIzjqePHHIkq5pThz3NsqGn19ORuKjvRVYSl/aIBsATFbDE9g=="></script>
+  
     </section>
+  <footer class="pt-8 max-w-prose print:hidden">
 
     
 
-  
-
     
+  </footer>
+</article>
 
-  
       <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
   <a href="#the-top"
     class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"

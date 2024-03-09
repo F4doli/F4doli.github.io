@@ -9,12 +9,32 @@
     <copyright>© 2024 Jules</copyright>
     <lastBuildDate>Sat, 10 Feb 2024 12:03:33 +0100</lastBuildDate><atom:link href="https://F4doli.github.io/projets/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Projet - Sécurisation du protocole RDP</title>
+      <link>https://F4doli.github.io/projets/securisation-rdp/</link>
+      <pubDate>Sat, 09 Mar 2024 21:34:11 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/securisation-rdp/</guid>
+      <description>Réalisation professionnelle Démarche initiale # Ayant fait part de mon intérêt pour la sécurité des sytèmes d&amp;rsquo;informations auprès de mon entreprise, celle-ci a décidé de me confier un projet que j&amp;rsquo;ai du géré de bout en bout avec l&amp;rsquo;aide de mon maître d&amp;rsquo;apprentissage lorsque j&amp;rsquo;étais bloqué sur certains points.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/securisation-rdp/featured.png" />
+    </item>
+    
+    <item>
+      <title>Projet - Installation d&#39;un NAS sur site</title>
+      <link>https://F4doli.github.io/projets/nas/</link>
+      <pubDate>Thu, 29 Feb 2024 08:33:34 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/nas/</guid>
+      <description>Réalisation professionnelle Demande initiale # Durant une de mes périodes d&amp;rsquo;alternance, j&amp;rsquo;ai eu comme mission d&amp;rsquo;aller installer un serveur NAS synology chez un client en complète autonomie.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/nas/featured.png" />
+    </item>
+    
+    <item>
       <title>Projet - Migration antivirus</title>
       <link>https://F4doli.github.io/projets/antivirus/</link>
       <pubDate>Mon, 26 Feb 2024 10:07:12 +0100</pubDate>
       
       <guid>https://F4doli.github.io/projets/antivirus/</guid>
-      <description>Durant ma première année au sein de COBO Informatique, entreprise ou j&amp;rsquo;effectue mon alternance, j&amp;rsquo;ai eu l&amp;rsquo;opportunité de participer au salon IT Partners.</description>
+      <description>Réalisation professionnelle Contexte # Durant ma première année au sein de COBO Informatique, entreprise ou j&amp;rsquo;effectue mon alternance, j&amp;rsquo;ai eu l&amp;rsquo;opportunité de participer au salon IT Partners.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/antivirus/featured.jpg" />
     </item>
     

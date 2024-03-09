@@ -3,6 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://F4doli.github.io/projets/securisation-rdp/</loc>
+    <lastmod>2024-03-09T21:34:11+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://F4doli.github.io/projets/glpi/sla/</loc>
+    <lastmod>2024-03-09T20:23:20+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://F4doli.github.io/projets/nas/</loc>
+    <lastmod>2024-02-29T08:33:34+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://F4doli.github.io/projets/pfsense/haproxy/</loc>
+    <lastmod>2024-02-29T08:13:11+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://F4doli.github.io/veilles/lockbit/</loc>
     <lastmod>2024-02-26T11:24:59+01:00</lastmod>
     <changefreq>daily</changefreq>

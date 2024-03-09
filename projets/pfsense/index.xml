@@ -9,6 +9,16 @@
     <copyright>© 2024 Jules</copyright>
     <lastBuildDate>Sat, 10 Feb 2024 12:26:20 +0100</lastBuildDate><atom:link href="https://F4doli.github.io/projets/pfsense/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Equilibrage de charge avec Haproxy</title>
+      <link>https://F4doli.github.io/projets/pfsense/haproxy/</link>
+      <pubDate>Thu, 29 Feb 2024 08:13:11 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/pfsense/haproxy/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment installer HAProxy sur PfSense et comment l&amp;rsquo;utiliser pour faire de l&amp;rsquo;équilibrage de charge entre deux serveurs web.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/pfsense/haproxy/featured.jpg" />
+    </item>
+    
+    <item>
       <title>Création d&#39;une DMZ</title>
       <link>https://F4doli.github.io/projets/pfsense/dmz/</link>
       <pubDate>Mon, 26 Feb 2024 09:05:59 +0100</pubDate>
