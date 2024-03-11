@@ -6,8 +6,28 @@
     <description>Recent content in Bienvenue sur mon Portfolio on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <copyright>© 2024 Jules</copyright>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
     <lastBuildDate>Fri, 09 Feb 2024 23:14:25 +0100</lastBuildDate><atom:link href="https://F4doli.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker - Environnement cyber</title>
+      <link>https://F4doli.github.io/projets/docker/docker-pentestlab/</link>
+      <pubDate>Mon, 11 Mar 2024 12:46:22 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/docker/docker-pentestlab/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment créer un petit environement pour s&amp;rsquo;initier à la cybersécurité avec l&amp;rsquo;aide des composants Dockerfile et Docker Compose.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/docker/docker-pentestlab/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Equilibrage de charge avec HAProxy sur deux containers Nginx</title>
+      <link>https://F4doli.github.io/projets/docker/docker-nginx/</link>
+      <pubDate>Mon, 11 Mar 2024 12:27:40 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/docker/docker-nginx/</guid>
+      <description>Cette documentation à pour but d&amp;rsquo;expliquer comment créer deux containers Nginx à l&amp;rsquo;aide de Docker-compose et établir un équilibrage de charge avec HAProxy sur PfSense.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/docker/docker-nginx/featured.jpg" />
+    </item>
+    
     <item>
       <title>Projet - Sécurisation du protocole RDP</title>
       <link>https://F4doli.github.io/projets/securisation-rdp/</link>

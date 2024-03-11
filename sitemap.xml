@@ -3,6 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://F4doli.github.io/projets/docker/docker-pentestlab/</loc>
+    <lastmod>2024-03-11T12:46:22+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://F4doli.github.io/projets/docker/docker-nginx/</loc>
+    <lastmod>2024-03-11T12:27:40+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://F4doli.github.io/projets/docker/</loc>
+    <lastmod>2024-03-11T12:26:07+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://F4doli.github.io/projets/securisation-rdp/</loc>
     <lastmod>2024-03-09T21:34:11+01:00</lastmod>
     <changefreq>daily</changefreq>
