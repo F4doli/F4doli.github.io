@@ -3,6 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://F4doli.github.io/projets/hotline-diag-rep/</loc>
+    <lastmod>2024-03-12T10:16:41+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://F4doli.github.io/projets/install-serveur-site/</loc>
+    <lastmod>2024-03-12T08:45:50+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://F4doli.github.io/projets/docker/docker-pentestlab/</loc>
     <lastmod>2024-03-11T12:46:22+01:00</lastmod>
     <changefreq>daily</changefreq>

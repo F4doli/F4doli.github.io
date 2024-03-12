@@ -9,7 +9,27 @@
     <copyright>Copy, _right?_ :thinking_face:</copyright>
     <lastBuildDate>Sat, 10 Feb 2024 12:03:33 +0100</lastBuildDate><atom:link href="https://F4doli.github.io/projets/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Projet - Sécurisation du protocole RDP</title>
+      <title>Hotline - Diagnostic - Réparation</title>
+      <link>https://F4doli.github.io/projets/hotline-diag-rep/</link>
+      <pubDate>Tue, 12 Mar 2024 10:16:41 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/hotline-diag-rep/</guid>
+      <description>Réalisation professionnelle Une des choses qui prend le plus de notre temps, hormis les interventions sur site est la hotline.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/hotline-diag-rep/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Mise en place d&#39;un serveur Active Directory &amp; RDS sur site</title>
+      <link>https://F4doli.github.io/projets/install-serveur-site/</link>
+      <pubDate>Tue, 12 Mar 2024 08:45:50 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/projets/install-serveur-site/</guid>
+      <description>Réalisation professionnelle Démarche initiale # La demande du client était de pouvoir centraliser leur travail, afin d&amp;rsquo;accéder à leur ressources depuis n&amp;rsquo;importe quel endroit et quel poste de l&amp;rsquo;entreprise.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/projets/install-serveur-site/featured.png" />
+    </item>
+    
+    <item>
+      <title>Sécurisation du protocole RDP</title>
       <link>https://F4doli.github.io/projets/securisation-rdp/</link>
       <pubDate>Sat, 09 Mar 2024 21:34:11 +0100</pubDate>
       
@@ -19,7 +39,7 @@
     </item>
     
     <item>
-      <title>Projet - Installation d&#39;un NAS sur site</title>
+      <title>Installation d&#39;un NAS sur site</title>
       <link>https://F4doli.github.io/projets/nas/</link>
       <pubDate>Thu, 29 Feb 2024 08:33:34 +0100</pubDate>
       
@@ -29,7 +49,7 @@
     </item>
     
     <item>
-      <title>Projet - Migration antivirus</title>
+      <title>Migration des antivirus</title>
       <link>https://F4doli.github.io/projets/antivirus/</link>
       <pubDate>Mon, 26 Feb 2024 10:07:12 +0100</pubDate>
       
