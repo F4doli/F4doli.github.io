@@ -3,56 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://F4doli.github.io/projets/hotline-diag-rep/</loc>
+    <loc>https://F4doli.github.io/situations-prof/</loc>
+    <lastmod>2024-03-12T20:04:48+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://F4doli.github.io/situations-prof/hotline-diag-rep/</loc>
     <lastmod>2024-03-12T10:16:41+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/install-serveur-site/</loc>
+    <loc>https://F4doli.github.io/situations-prof/install-serveur-site/</loc>
     <lastmod>2024-03-12T08:45:50+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/docker/docker-pentestlab/</loc>
+    <loc>https://F4doli.github.io/situations-form/docker/docker-pentestlab/</loc>
     <lastmod>2024-03-11T12:46:22+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/docker/docker-nginx/</loc>
+    <loc>https://F4doli.github.io/situations-form/docker/docker-nginx/</loc>
     <lastmod>2024-03-11T12:27:40+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/docker/</loc>
+    <loc>https://F4doli.github.io/situations-form/docker/</loc>
     <lastmod>2024-03-11T12:26:07+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/securisation-rdp/</loc>
+    <loc>https://F4doli.github.io/situations-prof/securisation-rdp/</loc>
     <lastmod>2024-03-09T21:34:11+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/glpi/sla/</loc>
+    <loc>https://F4doli.github.io/situations-form/glpi/sla/</loc>
     <lastmod>2024-03-09T20:23:20+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/nas/</loc>
+    <loc>https://F4doli.github.io/situations-prof/nas/</loc>
     <lastmod>2024-02-29T08:33:34+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://F4doli.github.io/projets/pfsense/haproxy/</loc>
-    <lastmod>2024-02-29T08:13:11+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -63,37 +63,37 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/antivirus/</loc>
+    <loc>https://F4doli.github.io/situations-prof/antivirus/</loc>
     <lastmod>2024-02-26T10:07:12+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/windows_serveur/sous-domaine/</loc>
+    <loc>https://F4doli.github.io/situations-form/windows_serveur/sous-domaine/</loc>
     <lastmod>2024-02-26T09:34:55+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/windows_serveur/wds-autonome/</loc>
+    <loc>https://F4doli.github.io/situations-form/windows_serveur/wds-autonome/</loc>
     <lastmod>2024-02-26T09:30:11+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/windows_serveur/install-ad/</loc>
+    <loc>https://F4doli.github.io/situations-form/windows_serveur/install-ad/</loc>
     <lastmod>2024-02-26T09:20:14+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/windows_serveur/</loc>
+    <loc>https://F4doli.github.io/situations-form/windows_serveur/</loc>
     <lastmod>2024-02-26T09:11:39+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/pfsense/dmz/</loc>
+    <loc>https://F4doli.github.io/situations-form/pfsense/dmz/</loc>
     <lastmod>2024-02-26T09:05:59+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -117,85 +117,85 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/pfsense/vlans/</loc>
+    <loc>https://F4doli.github.io/situations-form/pfsense/vlans/</loc>
     <lastmod>2024-02-10T12:44:46+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/pfsense/suricata/</loc>
+    <loc>https://F4doli.github.io/situations-form/pfsense/suricata/</loc>
     <lastmod>2024-02-10T12:43:03+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/pfsense/installation/</loc>
+    <loc>https://F4doli.github.io/situations-form/pfsense/installation/</loc>
     <lastmod>2024-02-10T12:36:35+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/pfsense/cluster/</loc>
+    <loc>https://F4doli.github.io/situations-form/pfsense/cluster/</loc>
     <lastmod>2024-02-10T12:32:16+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/pfsense/certificat/</loc>
+    <loc>https://F4doli.github.io/situations-form/pfsense/certificat/</loc>
     <lastmod>2024-02-10T12:28:23+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/pfsense/</loc>
+    <loc>https://F4doli.github.io/situations-form/pfsense/</loc>
     <lastmod>2024-02-10T12:26:20+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/zabbix/vhost/</loc>
+    <loc>https://F4doli.github.io/situations-form/zabbix/vhost/</loc>
     <lastmod>2024-02-10T12:24:44+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/zabbix/installation/</loc>
+    <loc>https://F4doli.github.io/situations-form/zabbix/installation/</loc>
     <lastmod>2024-02-10T12:22:06+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/zabbix/</loc>
+    <loc>https://F4doli.github.io/situations-form/zabbix/</loc>
     <lastmod>2024-02-10T12:20:02+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/glpi/sauvegarde/</loc>
+    <loc>https://F4doli.github.io/situations-form/glpi/sauvegarde/</loc>
     <lastmod>2024-02-10T12:13:57+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/glpi/installation/</loc>
+    <loc>https://F4doli.github.io/situations-form/glpi/installation/</loc>
     <lastmod>2024-02-10T12:11:38+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/glpi/creation-profil/</loc>
+    <loc>https://F4doli.github.io/situations-form/glpi/creation-profil/</loc>
     <lastmod>2024-02-10T12:09:13+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/glpi/</loc>
+    <loc>https://F4doli.github.io/situations-form/glpi/</loc>
     <lastmod>2024-02-10T12:06:40+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://F4doli.github.io/projets/</loc>
+    <loc>https://F4doli.github.io/situations-form/</loc>
     <lastmod>2024-02-10T12:03:33+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

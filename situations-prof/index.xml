@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Situations réalisées en entreprise on Portfolio</title>
+    <link>https://F4doli.github.io/situations-prof/</link>
+    <description>Recent content in Situations réalisées en entreprise on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Tue, 12 Mar 2024 20:04:48 +0100</lastBuildDate><atom:link href="https://F4doli.github.io/situations-prof/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hotline - Diagnostic - Réparation</title>
+      <link>https://F4doli.github.io/situations-prof/hotline-diag-rep/</link>
+      <pubDate>Tue, 12 Mar 2024 10:16:41 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/situations-prof/hotline-diag-rep/</guid>
+      <description>Réalisé en entreprise Une des choses qui prend le plus de notre temps, hormis les interventions sur site est la hotline.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/situations-prof/hotline-diag-rep/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Mise en place d&#39;un serveur Active Directory &amp; RDS sur site</title>
+      <link>https://F4doli.github.io/situations-prof/install-serveur-site/</link>
+      <pubDate>Tue, 12 Mar 2024 08:45:50 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/situations-prof/install-serveur-site/</guid>
+      <description>Réalisé en entreprise Démarche initiale # La demande du client était de pouvoir centraliser leur travail, afin d&amp;rsquo;accéder à leur ressources depuis n&amp;rsquo;importe quel endroit et quel poste de l&amp;rsquo;entreprise.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/situations-prof/install-serveur-site/featured.png" />
+    </item>
+    
+    <item>
+      <title>Sécurisation du protocole RDP</title>
+      <link>https://F4doli.github.io/situations-prof/securisation-rdp/</link>
+      <pubDate>Sat, 09 Mar 2024 21:34:11 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/situations-prof/securisation-rdp/</guid>
+      <description>Réalisé en entreprise Démarche initiale # Ayant fait part de mon intérêt pour la sécurité des sytèmes d&amp;rsquo;informations auprès de mon entreprise, celle-ci a décidé de me confier un projet que j&amp;rsquo;ai du géré de bout en bout avec l&amp;rsquo;aide de mon maître d&amp;rsquo;apprentissage lorsque j&amp;rsquo;étais bloqué sur certains points.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/situations-prof/securisation-rdp/featured.png" />
+    </item>
+    
+    <item>
+      <title>Installation d&#39;un NAS sur site</title>
+      <link>https://F4doli.github.io/situations-prof/nas/</link>
+      <pubDate>Thu, 29 Feb 2024 08:33:34 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/situations-prof/nas/</guid>
+      <description>Réalisé en entreprise Demande initiale # Durant une de mes périodes d&amp;rsquo;alternance, j&amp;rsquo;ai eu comme mission d&amp;rsquo;aller installer un serveur NAS synology chez un client en complète autonomie.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/situations-prof/nas/featured.png" />
+    </item>
+    
+    <item>
+      <title>Migration des antivirus</title>
+      <link>https://F4doli.github.io/situations-prof/antivirus/</link>
+      <pubDate>Mon, 26 Feb 2024 10:07:12 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/situations-prof/antivirus/</guid>
+      <description>Réalisé en entreprise Contexte # Durant ma première année au sein de COBO Informatique, entreprise ou j&amp;rsquo;effectue mon alternance, j&amp;rsquo;ai eu l&amp;rsquo;opportunité de participer au salon IT Partners.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/situations-prof/antivirus/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

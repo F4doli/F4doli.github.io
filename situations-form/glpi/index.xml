@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GLPI on Portfolio</title>
+    <link>https://F4doli.github.io/situations-form/glpi/</link>
+    <description>Recent content in GLPI on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Sat, 10 Feb 2024 12:06:40 +0100</lastBuildDate><atom:link href="https://F4doli.github.io/situations-form/glpi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Création de SLAs</title>
+      <link>https://F4doli.github.io/situations-form/glpi/sla/</link>
+      <pubDate>Sat, 09 Mar 2024 20:23:20 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/situations-form/glpi/sla/</guid>
+      <description>Contexte # Afin de valider les pré-requis de l&amp;rsquo;infrastucture commune obligatoire de l&amp;rsquo;épreuve E5, et notamment la partie Un service rendu à l&amp;rsquo;utilisateur finale respectant une SLA, j&amp;rsquo;ai décidé d&amp;rsquo;utiliser la fonction des SLAs directement intégrée dans GLPI.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/situations-form/glpi/sla/featured.png" />
+    </item>
+    
+    <item>
+      <title>Sauvegarde de GLPI</title>
+      <link>https://F4doli.github.io/situations-form/glpi/sauvegarde/</link>
+      <pubDate>Sat, 10 Feb 2024 12:13:57 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/situations-form/glpi/sauvegarde/</guid>
+      <description>Contexte # Cette activité a été réalisée lors de ma première année de BTS, nous devions trouver un moyen de sauvegarder GLPI qui dispose de deux choses importantes :</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/situations-form/glpi/sauvegarde/featured.png" />
+    </item>
+    
+    <item>
+      <title>Installation de GLPI sur Debian</title>
+      <link>https://F4doli.github.io/situations-form/glpi/installation/</link>
+      <pubDate>Sat, 10 Feb 2024 12:11:38 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/situations-form/glpi/installation/</guid>
+      <description>Contexte # Afin de valider les pré-requis de l&amp;rsquo;infrastucture commune obligatoire de l&amp;rsquo;épreuve E5, et notamment les parties Gestion des incidents et Logiciel de gestion des configurations, j&amp;rsquo;ai fais le choix d&amp;rsquo;utiliser GLPI car c&amp;rsquo;est l&amp;rsquo;un des logiciels de gestion le plus réputé et le plus documenté.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/situations-form/glpi/installation/featured.png" />
+    </item>
+    
+    <item>
+      <title>Création d&#39;utilisateurs et de profils</title>
+      <link>https://F4doli.github.io/situations-form/glpi/creation-profil/</link>
+      <pubDate>Sat, 10 Feb 2024 12:09:13 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/situations-form/glpi/creation-profil/</guid>
+      <description>Contexte # Le contexte est le même que pour la partie installation, j&amp;rsquo;ai simplement ajouté des utilisateurs afin de personnaliser un minimum GLPI.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/situations-form/glpi/creation-profil/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

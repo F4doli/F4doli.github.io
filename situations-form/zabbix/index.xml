@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zabbix on Portfolio</title>
+    <link>https://F4doli.github.io/situations-form/zabbix/</link>
+    <description>Recent content in Zabbix on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Sat, 10 Feb 2024 12:20:02 +0100</lastBuildDate><atom:link href="https://F4doli.github.io/situations-form/zabbix/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modification du Virtual Host</title>
+      <link>https://F4doli.github.io/situations-form/zabbix/vhost/</link>
+      <pubDate>Sat, 10 Feb 2024 12:24:44 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/situations-form/zabbix/vhost/</guid>
+      <description>Documentation # Dans cette très courte documentation, vous trouverez une explication afin de modifier le virtual host dans Apache pour que zabbix soit accessible directement depuis l&amp;rsquo;adresse, sans rajouter /zabbix à la fin.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/situations-form/zabbix/vhost/featured.png" />
+    </item>
+    
+    <item>
+      <title>Installation et ajout d&#39;un hôte Windows dans Zabbix</title>
+      <link>https://F4doli.github.io/situations-form/zabbix/installation/</link>
+      <pubDate>Sat, 10 Feb 2024 12:22:06 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/situations-form/zabbix/installation/</guid>
+      <description>Contexte # Afin de valider les pré-requis de l&amp;rsquo;infrastucture commune obligatoire de l&amp;rsquo;épreuve E5, et notamment la partie Logiciel de supervision système et réseau avec remontées d&amp;rsquo;alertes, j&amp;rsquo;ai fais le choix d&amp;rsquo;installer Zabbix.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/situations-form/zabbix/installation/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PfSense on Portfolio</title>
+    <link>https://F4doli.github.io/situations-form/pfsense/</link>
+    <description>Recent content in PfSense on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Sat, 10 Feb 2024 12:26:20 +0100</lastBuildDate><atom:link href="https://F4doli.github.io/situations-form/pfsense/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Création d&#39;une DMZ</title>
+      <link>https://F4doli.github.io/situations-form/pfsense/dmz/</link>
+      <pubDate>Mon, 26 Feb 2024 09:05:59 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/situations-form/pfsense/dmz/</guid>
+      <description>Contexte # Afin de valider les pré-requis de l&amp;rsquo;infrastucture commune obligatoire de l&amp;rsquo;épreuve E5, et notamment la partie Solution garantissant des accès sécurisés à un service interne ou externes, j&amp;rsquo;ai mis en place une DMZ dans laquel est disposé un serveur WEB ayant pour objectif de simuler un service web proposée.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/situations-form/pfsense/dmz/featured.png" />
+    </item>
+    
+    <item>
+      <title>Vlans sur PfSense et Proxmox</title>
+      <link>https://F4doli.github.io/situations-form/pfsense/vlans/</link>
+      <pubDate>Sat, 10 Feb 2024 12:44:46 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/situations-form/pfsense/vlans/</guid>
+      <description>Contexte # Afin de valider les pré-requis de l&amp;rsquo;infrastucture commune obligatoire de l&amp;rsquo;épreuve E5, et notamment la partie Réseau comportant plusieurs périmètres de sécurité, j&amp;rsquo;ai utilisé la technologie des VLANs sur PfSense afin de segmenter le réseau de sorte que les différents utilisateurs de différents département ne se trouvent pas dans le même réseau.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/situations-form/pfsense/vlans/featured.png" />
+    </item>
+    
+    <item>
+      <title>Installer Suricata sur PfSense</title>
+      <link>https://F4doli.github.io/situations-form/pfsense/suricata/</link>
+      <pubDate>Sat, 10 Feb 2024 12:43:03 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/situations-form/pfsense/suricata/</guid>
+      <description>Contexte # Afin de valider les pré-requis de l&amp;rsquo;infrastucture commune obligatoire de l&amp;rsquo;épreuve E5, et notamment la partie Détection et prévention des intrusions, j&amp;rsquo;ai mis en place le très réputé IDS/IPS suricata.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/situations-form/pfsense/suricata/featured.png" />
+    </item>
+    
+    <item>
+      <title>Installation de PfSense sous Proxmox</title>
+      <link>https://F4doli.github.io/situations-form/pfsense/installation/</link>
+      <pubDate>Sat, 10 Feb 2024 12:36:35 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/situations-form/pfsense/installation/</guid>
+      <description>Contexte # Afin de valider les pré-requis de l&amp;rsquo;infrastucture commune obligatoire de l&amp;rsquo;épreuve E5, et notamment toute la partie réseau et pare-feu, j&amp;rsquo;ai fais le choix d&amp;rsquo;utiliser la solution open source PfSense.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/situations-form/pfsense/installation/featured.png" />
+    </item>
+    
+    <item>
+      <title>Redondance avec 2 PfSense</title>
+      <link>https://F4doli.github.io/situations-form/pfsense/cluster/</link>
+      <pubDate>Sat, 10 Feb 2024 12:32:16 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/situations-form/pfsense/cluster/</guid>
+      <description>Contexte # Afin de valider les pré-requis de l&amp;rsquo;infrastucture commune obligatoire de l&amp;rsquo;épreuve E5, et notamment les parties solution garantissant la continuité d&amp;rsquo;un service et solution garantissant la tolérance de panne de systèmes ou équipements réseau, j&amp;rsquo;ai établi une redondance entre deux PfSense.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/situations-form/pfsense/cluster/featured.png" />
+    </item>
+    
+    <item>
+      <title>Utiliser PfSense comme autorité de certification</title>
+      <link>https://F4doli.github.io/situations-form/pfsense/certificat/</link>
+      <pubDate>Sat, 10 Feb 2024 12:28:23 +0100</pubDate>
+      
+      <guid>https://F4doli.github.io/situations-form/pfsense/certificat/</guid>
+      <description>Contexte # Afin de valider les pré-requis de l&amp;rsquo;infrastucture commune obligatoire de l&amp;rsquo;épreuve E5, et notamment la partie Chiffrement.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/situations-form/pfsense/certificat/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
