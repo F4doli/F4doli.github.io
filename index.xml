@@ -49,12 +49,12 @@
     </item>
     
     <item>
-      <title>Equilibrage de charge avec HAProxy sur deux containers Nginx</title>
+      <title>Epreuve E5 - Situation 1</title>
       <link>https://F4doli.github.io/situations-form/docker/docker-nginx/</link>
       <pubDate>Mon, 11 Mar 2024 12:27:40 +0100</pubDate>
       
       <guid>https://F4doli.github.io/situations-form/docker/docker-nginx/</guid>
-      <description>Contexte # Afin de valider les pré-requis de l&amp;rsquo;infrastucture commune obligatoire de l&amp;rsquo;épreuve E5 et de créer une situation, j&amp;rsquo;ai décidé d&amp;rsquo;utiliser deux containers Docker avec une image Nginx et HAProxy en tant que proxy et équlibreur de charge.</description>
+      <description>Contexte # Nextech est un centre de formation qui permet aux entreprises de disposer des compétences dont elles ont besoin afin de mettre en œuvre leur stratégie et améliorer leur compétitivité.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/situations-form/docker/docker-nginx/featured.jpg" />
     </item>
     
