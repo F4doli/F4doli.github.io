@@ -44,7 +44,7 @@
       <pubDate>Tue, 12 Mar 2024 08:45:50 +0100</pubDate>
       
       <guid>https://F4doli.github.io/situations-prof/install-serveur-site/</guid>
-      <description>Réalisé en entreprise Démarche initiale # La demande du client était de pouvoir centraliser leur travail, afin d&amp;rsquo;accéder à leur ressources depuis n&amp;rsquo;importe quel endroit et quel poste de l&amp;rsquo;entreprise.</description>
+      <description>Réalisé en entreprise Démarche initiale # La demande du client était de pouvoir centraliser leur travail, afin d&amp;rsquo;accéder à leurs ressources depuis n&amp;rsquo;importe quel endroit et quel poste de l&amp;rsquo;entreprise.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/situations-prof/install-serveur-site/featured.png" />
     </item>
     
@@ -154,7 +154,7 @@
       <pubDate>Mon, 26 Feb 2024 09:05:59 +0100</pubDate>
       
       <guid>https://F4doli.github.io/situations-form/pfsense/dmz/</guid>
-      <description>Contexte # Afin de valider les pré-requis de l&amp;rsquo;infrastucture commune obligatoire de l&amp;rsquo;épreuve E5, et notamment la partie Solution garantissant des accès sécurisés à un service interne ou externes, j&amp;rsquo;ai mis en place une DMZ dans laquel est disposé un serveur WEB ayant pour objectif de simuler un service web proposée.</description>
+      <description>Contexte # Afin de valider les pré-requis de l&amp;rsquo;infrastucture commune obligatoire de l&amp;rsquo;épreuve E5, et notamment la partie Solution garantissant des accès sécurisés à un service interne ou externes, j&amp;rsquo;ai mis en place une DMZ dans laquel est disposé deux containers Nginx ayant pour objectif de simuler un service d&amp;rsquo;intranet/extranet.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://F4doli.github.io/situations-form/pfsense/dmz/featured.png" />
     </item>
     
@@ -324,7 +324,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://F4doli.github.io/parcours/</guid>
-      <description>Mon parcours académique et professionnelle # Parcours ingénieur 2024 - 2027 Diplôme d&#39;ingénieur au sein de l&#39;ESIEA avec comme spécialité la cybersécurité.</description>
+      <description>Mon parcours académique et professionnelle # Parcours ingénieur 2024 - 2027 Diplôme d&#39;ingénieur en cyberdéfense au sein de l&#39;ESNA de Bretagne.</description>
       
     </item>
     

@@ -89,7 +89,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "398"
+    "wordCount": "418"
   }]
   </script>
 
@@ -725,7 +725,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>398 mots</span><span class="px-2 text-primary-500">&middot;</span><span title="Temps de lecture">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <span>418 mots</span><span class="px-2 text-primary-500">&middot;</span><span title="Temps de lecture">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.16f2e42a0014d476212e14c056b26b69bc85cb5de15352a5e3a1a0be498055dc1bf0926cef44baef1cc7fa2dfc5de0052892645cd3766598065f47b15c4bd44d.js" integrity="sha512-FvLkKgAU1HYhLhTAVrJrabyFy13hU1Kl46GgvkmAVdwb8JJs70S67xzH&#43;i38XeAFKJJkXNN2ZZgGX0exXEvUTQ=="></script>
@@ -921,11 +921,11 @@
       <img
         class="my-0 rounded-md"
         srcset="
-        /situations-form/docker/docker-nginx/Schema_hu90d73fb64acb6b9f409f46996ae50432_114616_330x0_resize_q75_box.jpg 330w,
-        /situations-form/docker/docker-nginx/Schema_hu90d73fb64acb6b9f409f46996ae50432_114616_660x0_resize_q75_box.jpg 660w,
-        /situations-form/docker/docker-nginx/Schema_hu90d73fb64acb6b9f409f46996ae50432_114616_1024x0_resize_q75_box.jpg 1024w,
-        /situations-form/docker/docker-nginx/Schema_hu90d73fb64acb6b9f409f46996ae50432_114616_1320x0_resize_q75_box.jpg 2x"
-        src="/situations-form/docker/docker-nginx/Schema_hu90d73fb64acb6b9f409f46996ae50432_114616_660x0_resize_q75_box.jpg"
+        /situations-form/docker/docker-nginx/Schema_hu41e8a4b223cf0370354210dd8a7eee05_118945_330x0_resize_q75_box.jpg 330w,
+        /situations-form/docker/docker-nginx/Schema_hu41e8a4b223cf0370354210dd8a7eee05_118945_660x0_resize_q75_box.jpg 660w,
+        /situations-form/docker/docker-nginx/Schema_hu41e8a4b223cf0370354210dd8a7eee05_118945_1024x0_resize_q75_box.jpg 1024w,
+        /situations-form/docker/docker-nginx/Schema_hu41e8a4b223cf0370354210dd8a7eee05_118945_1320x0_resize_q75_box.jpg 2x"
+        src="/situations-form/docker/docker-nginx/Schema_hu41e8a4b223cf0370354210dd8a7eee05_118945_660x0_resize_q75_box.jpg"
         alt="schéma_réseau"
       />
       
@@ -993,9 +993,10 @@
     </span>        
     
 </h3>
-<p>Je n&rsquo;ai pas créé d&rsquo;image personnalisée pour ce cas ci, les images de bases Nginx sont amplement suffisante.<br>
+<p>Je n&rsquo;ai pas créé d&rsquo;image personnalisée pour ce cas ci, les images de bases Nginx sont amplement suffisantes.<br>
 Cependant, j&rsquo;ai fais usage de Docker Compose afin d&rsquo;orchestrer les containers, le réseau et le volume.<br>
-En effet, j&rsquo;ai utilisé un volume Docker qui est partagé entre les deux containers à l&rsquo;emplacement <strong>/usr/share/nginx/html</strong>.</p>
+En effet, j&rsquo;ai utilisé un volume Docker qui est partagé entre les deux containers à l&rsquo;emplacement <strong>/usr/share/nginx/html</strong>.<br>
+Cela permet d&rsquo;isoler les données des deux containers et de supprimer et recréer les containers sans aucune perte de données.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;3&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">services</span><span class="p">:</span><span class="w">
@@ -1044,7 +1045,7 @@ En effet, j&rsquo;ai utilisé un volume Docker qui est partagé entre les deux c
     </span>        
     
 </h3>
-<p>Une fois les containers lancés, j&rsquo;ai mis en place HAProxy sur PfSense, j&rsquo;ai ajouté l&rsquo;ip de mon hôte ou son héberger les containers et j&rsquo;ai pris soin de mettre les ports mappés à l&rsquo;hôte (8081 &amp; 8082).<br>
+<p>Une fois les containers lancés, j&rsquo;ai mis en place HAProxy sur PfSense, j&rsquo;ai ajouté l&rsquo;ip de mon hôte ou sont hébergés les containers et j&rsquo;ai pris soin de mettre les ports mappés à l&rsquo;hôte (8081 &amp; 8082).<br>
 Toute cette partie est abordée en détail dans la documentation que vous trouverez ci-dessous.</p>
 <h2 class="relative group">Documentation 
     <div id="documentation" class="anchor"></div>
@@ -1056,12 +1057,24 @@ Toute cette partie est abordée en détail dans la documentation que vous trouve
     </span>        
     
 </h2>
-<p>Vous trouverez <a href="E5_Docker.pdf"  >
-    ici</a> la fiche descriptive de ma réalisation professionnelle.</p>
-<p>Pour consulter la documentation expliquant la mise en place de cette situation, merci de cliquer sur ce <a href="docker-nginxethaproxy.pdf"  >
-    lien</a>.</p>
-<p>Pour consulter la documentation expliquant la mise en place de portainer, permettant la supervision de Docker, merci de suivre ce <a href="Docker_Portainer.pdf"  >
-    lien</a>.</p>
+<ul>
+<li>
+<p>Fiche descriptive E5 :<a href="E5_Docker.pdf"  >
+    cliquez sur ce lien</a></p>
+</li>
+<li>
+<p>Documentation de mise en place de docker et HAProxy :<a href="docker-nginxethaproxy.pdf"  >
+    cliquez sur ce lien</a>.</p>
+</li>
+<li>
+<p>Documentation de mise en place de portainer :  <a href="Docker_Portainer.pdf"  >
+    cliquez sur ce lien</a>.</p>
+</li>
+<li>
+<p>Documentation technique de l&rsquo;infrastructure commune : <a href="Documentation_technique_E5_SANS_ID.pdf"  >
+    cliquez sur ce lien</a></p>
+</li>
+</ul>
 <h2 class="relative group">Compétences déployées 
     <div id="compétences-déployées" class="anchor"></div>
     
@@ -1078,6 +1091,7 @@ Toute cette partie est abordée en détail dans la documentation que vous trouve
 <li><strong>Déployer un service</strong></li>
 <li><strong>Mise en place d&rsquo;un proxy</strong></li>
 <li><strong>Mise en place d&rsquo;une solution d&rsquo;équilibrage de charge</strong></li>
+<li><strong>Utilisation d&rsquo;une solution de conteneurisation</strong></li>
 </ul>
 
         </div>

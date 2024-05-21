@@ -53,7 +53,7 @@
   
   
   <meta property="og:title" content="Création d&#39;une DMZ" />
-<meta property="og:description" content="Contexte # Afin de valider les pré-requis de l&rsquo;infrastucture commune obligatoire de l&rsquo;épreuve E5, et notamment la partie Solution garantissant des accès sécurisés à un service interne ou externes, j&rsquo;ai mis en place une DMZ dans laquel est disposé un serveur WEB ayant pour objectif de simuler un service web proposée." />
+<meta property="og:description" content="Contexte # Afin de valider les pré-requis de l&rsquo;infrastucture commune obligatoire de l&rsquo;épreuve E5, et notamment la partie Solution garantissant des accès sécurisés à un service interne ou externes, j&rsquo;ai mis en place une DMZ dans laquel est disposé deux containers Nginx ayant pour objectif de simuler un service d&rsquo;intranet/extranet." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://F4doli.github.io/situations-form/pfsense/dmz/" /><meta property="og:image" content="https://F4doli.github.io/situations-form/pfsense/dmz/featured.png" /><meta property="article:section" content="situations-form" />
 <meta property="article:published_time" content="2024-02-26T09:05:59+01:00" />
@@ -62,7 +62,7 @@
 
   <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://F4doli.github.io/situations-form/pfsense/dmz/featured.png" /><meta name="twitter:title" content="Création d&#39;une DMZ"/>
-<meta name="twitter:description" content="Contexte # Afin de valider les pré-requis de l&rsquo;infrastucture commune obligatoire de l&rsquo;épreuve E5, et notamment la partie Solution garantissant des accès sécurisés à un service interne ou externes, j&rsquo;ai mis en place une DMZ dans laquel est disposé un serveur WEB ayant pour objectif de simuler un service web proposée."/>
+<meta name="twitter:description" content="Contexte # Afin de valider les pré-requis de l&rsquo;infrastucture commune obligatoire de l&rsquo;épreuve E5, et notamment la partie Solution garantissant des accès sécurisés à un service interne ou externes, j&rsquo;ai mis en place une DMZ dans laquel est disposé deux containers Nginx ayant pour objectif de simuler un service d&rsquo;intranet/extranet."/>
 
   
   <script type="application/ld+json">
@@ -73,7 +73,7 @@
     "name": "Création d\u0027une DMZ",
     "headline": "Création d\u0027une DMZ",
     
-    "abstract": "Contexte # Afin de valider les pré-requis de l\u0026rsquo;infrastucture commune obligatoire de l\u0026rsquo;épreuve E5, et notamment la partie Solution garantissant des accès sécurisés à un service interne ou externes, j\u0026rsquo;ai mis en place une DMZ dans laquel est disposé un serveur WEB ayant pour objectif de simuler un service web proposée.",
+    "abstract": "Contexte # Afin de valider les pré-requis de l\u0026rsquo;infrastucture commune obligatoire de l\u0026rsquo;épreuve E5, et notamment la partie Solution garantissant des accès sécurisés à un service interne ou externes, j\u0026rsquo;ai mis en place une DMZ dans laquel est disposé deux containers Nginx ayant pour objectif de simuler un service d\u0026rsquo;intranet\/extranet.",
     "inLanguage": "fr",
     "url" : "https:\/\/F4doli.github.io\/situations-form\/pfsense\/dmz\/",
     "author" : {
@@ -89,7 +89,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "239"
+    "wordCount": "220"
   }]
   </script>
 
@@ -725,7 +725,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>239 mots</span><span class="px-2 text-primary-500">&middot;</span><span title="Temps de lecture">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <span>220 mots</span><span class="px-2 text-primary-500">&middot;</span><span title="Temps de lecture">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.16f2e42a0014d476212e14c056b26b69bc85cb5de15352a5e3a1a0be498055dc1bf0926cef44baef1cc7fa2dfc5de0052892645cd3766598065f47b15c4bd44d.js" integrity="sha512-FvLkKgAU1HYhLhTAVrJrabyFy13hU1Kl46GgvkmAVdwb8JJs70S67xzH&#43;i38XeAFKJJkXNN2ZZgGX0exXEvUTQ=="></script>
@@ -879,7 +879,8 @@
     </span>        
     
 </h2>
-<p>Afin de valider les pré-requis de l&rsquo;infrastucture commune obligatoire de l&rsquo;épreuve E5, et notamment la partie <strong>Solution garantissant des accès sécurisés à un service interne ou externes</strong>, j&rsquo;ai mis en place une DMZ dans laquel est disposé un serveur WEB ayant pour objectif de simuler un service web proposée. La DMZ a été sécurisée avec des règles pare-feu et NAT.</p>
+<p>Afin de valider les pré-requis de l&rsquo;infrastucture commune obligatoire de l&rsquo;épreuve E5, et notamment la partie <strong>Solution garantissant des accès sécurisés à un service interne ou externes</strong>, j&rsquo;ai mis en place une DMZ dans laquel est disposé deux containers <a href="https://nginx.org/en/"   target="_blank">
+    Nginx</a> ayant pour objectif de simuler un service d&rsquo;intranet/extranet. La DMZ a été sécurisée à l&rsquo;aide de règles pare-feu et d&rsquo;un reverse proxy HAProxy.</p>
 <h2 class="relative group">Réalisation 
     <div id="réalisation" class="anchor"></div>
     
@@ -891,10 +892,9 @@
     
 </h2>
 <p>En premier lieu, j&rsquo;ai créé une interface réseau dans Proxmox dédiée à la DMZ.<br>
-J&rsquo;ai ajouté cette interface sur les deux PfSense (Maître et backup), j&rsquo;ai configuré l&rsquo;ip, puis j&rsquo;ai ajoutée un serveur WEB IIS dans cette DMZ.</p>
+J&rsquo;ai ajouté cette interface sur les deux PfSense (Maître et backup), j&rsquo;ai configuré l&rsquo;ip, puis j&rsquo;ai ajoutée deux containers docker dans le réseau DMZ.</p>
 <p>Ensuite, j&rsquo;ai sécurisé cette DMZ à l&rsquo;aide de règles pare-feu pour que celle-ci ne communique avec aucun des autres LAN/VLANs et que les LAN/VLANs ne puissent communiquer avec elle.<br>
-Seul l&rsquo;autorisation du protocole HTTP vers le serveur WEB a été ajoutée.</p>
-<p>Enfin, j&rsquo;ai crée une règle NAT pour que les connexions entrante sur l&rsquo;adresse WAN soit redirigées vers le serveur WEB présent dans la DMZ.</p>
+L&rsquo;accès se fait seulement par le biais du reverse proxy.</p>
 <h2 class="relative group">Documentation 
     <div id="documentation" class="anchor"></div>
     
@@ -906,7 +906,7 @@ Seul l&rsquo;autorisation du protocole HTTP vers le serveur WEB a été ajoutée
     
 </h2>
 <p>Pour en savoir plus sur les étapes réalisée afin de mener à bien cette activité, n&rsquo;hésitez pas à consulter la documentation en suivant ce <a href="pfsense-dmz.pdf"  >
-    lien</a></p>
+    lien</a>.</p>
 <h2 class="relative group">Compétences déployées 
     <div id="compétences-déployées" class="anchor"></div>
     
@@ -922,7 +922,7 @@ Seul l&rsquo;autorisation du protocole HTTP vers le serveur WEB a été ajoutée
 <li><strong>Déployer un service</strong></li>
 <li><strong>Mettre en place et vérifier les niveaux d&rsquo;habilitation associés à un service</strong></li>
 <li><strong>Mise en place d&rsquo;un service web</strong></li>
-<li><strong>Sécurisation du réseau à l&rsquo;aide de règles pare-feu</strong></li>
+<li><strong>Sécurisation du réseau à l&rsquo;aide de règles pare-feu et d&rsquo;un reverse proxy</strong></li>
 </ul>
 
         </div>

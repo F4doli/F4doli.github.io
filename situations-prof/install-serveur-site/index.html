@@ -53,7 +53,7 @@
   
   
   <meta property="og:title" content="Mise en place d&#39;un serveur Active Directory &amp; RDS sur site" />
-<meta property="og:description" content="Réalisé en entreprise Démarche initiale # La demande du client était de pouvoir centraliser leur travail, afin d&rsquo;accéder à leur ressources depuis n&rsquo;importe quel endroit et quel poste de l&rsquo;entreprise." />
+<meta property="og:description" content="Réalisé en entreprise Démarche initiale # La demande du client était de pouvoir centraliser leur travail, afin d&rsquo;accéder à leurs ressources depuis n&rsquo;importe quel endroit et quel poste de l&rsquo;entreprise." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://F4doli.github.io/situations-prof/install-serveur-site/" /><meta property="og:image" content="https://F4doli.github.io/situations-prof/install-serveur-site/featured.png" /><meta property="article:section" content="situations-prof" />
 <meta property="article:published_time" content="2024-03-12T08:45:50+01:00" />
@@ -62,7 +62,7 @@
 
   <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://F4doli.github.io/situations-prof/install-serveur-site/featured.png" /><meta name="twitter:title" content="Mise en place d&#39;un serveur Active Directory &amp; RDS sur site"/>
-<meta name="twitter:description" content="Réalisé en entreprise Démarche initiale # La demande du client était de pouvoir centraliser leur travail, afin d&rsquo;accéder à leur ressources depuis n&rsquo;importe quel endroit et quel poste de l&rsquo;entreprise."/>
+<meta name="twitter:description" content="Réalisé en entreprise Démarche initiale # La demande du client était de pouvoir centraliser leur travail, afin d&rsquo;accéder à leurs ressources depuis n&rsquo;importe quel endroit et quel poste de l&rsquo;entreprise."/>
 
   
   <script type="application/ld+json">
@@ -73,7 +73,7 @@
     "name": "Mise en place d\u0027un serveur Active Directory \u0026 RDS sur site",
     "headline": "Mise en place d\u0027un serveur Active Directory \u0026 RDS sur site",
     
-    "abstract": "Réalisé en entreprise Démarche initiale # La demande du client était de pouvoir centraliser leur travail, afin d\u0026rsquo;accéder à leur ressources depuis n\u0026rsquo;importe quel endroit et quel poste de l\u0026rsquo;entreprise.",
+    "abstract": "Réalisé en entreprise Démarche initiale # La demande du client était de pouvoir centraliser leur travail, afin d\u0026rsquo;accéder à leurs ressources depuis n\u0026rsquo;importe quel endroit et quel poste de l\u0026rsquo;entreprise.",
     "inLanguage": "fr",
     "url" : "https:\/\/F4doli.github.io\/situations-prof\/install-serveur-site\/",
     "author" : {
@@ -888,7 +888,7 @@
     </span>        
     
 </h2>
-<p>La demande du client était de pouvoir centraliser leur travail, afin d&rsquo;accéder à leur ressources depuis n&rsquo;importe quel endroit et quel poste de l&rsquo;entreprise.
+<p>La demande du client était de pouvoir centraliser leur travail, afin d&rsquo;accéder à leurs ressources depuis n&rsquo;importe quel endroit et quel poste de l&rsquo;entreprise.
 Suite à l&rsquo;audit de mon maître d&rsquo;apprentissage sur site, il a donc décidé de préparer en atelier un serveur Active Directory et RDS. Les deux machines ont été créées sur l&rsquo;hyperviseur Hyper-V en tant que machine virtuelle.<br>
 Toute la partie préparation a été conduite par mon maître d&rsquo;apprentissage, j&rsquo;aborderai donc la partie qui m&rsquo;a été confié, étant l&rsquo;installation sur site.</p>
 <h2 class="relative group">Installation du serveur sur site et migration 
@@ -902,7 +902,7 @@ Toute la partie préparation a été conduite par mon maître d&rsquo;apprentiss
     
 </h2>
 <p>Ma mission avec celle d&rsquo;un autre technicien est donc de faire l&rsquo;installation de ce serveur directement chez le client.<br>
-Comme nous devions remplacer un serveur existant, nous avons brancher le nouveau serveur sans intervenir sur l&rsquo;ancien, afin d&rsquo;effectuer quelques test et nous assurer que celui-ci était bien paramétré.<br>
+Comme nous devions remplacer un serveur existant, nous avons branché le nouveau serveur sans intervenir sur l&rsquo;ancien, afin d&rsquo;effectuer quelques test et nous assurer que celui-ci était bien paramétré.<br>
 Une fois que nous étions certains du bon fonctionnement, nous avons désactivé le service DHCP de l&rsquo;ancien serveur afin que le nouveau serveur prenne le relai. Le but étant de laisser l&rsquo;ancien serveur accessible car des données communes étaient nécessaires pour que les clients effectuent leur travail.<br>
 Maintenant que le service DHCP du nouveau serveur est opérationnel, les clients ont donc récupéré le DNS da la machine virtuelle Active Directory.
 <br>
@@ -915,10 +915,10 @@ Nous pouvions alors démarrer notre migration. Les étapes qui vont être décri
 <li><strong>Installation des nouvelles applications (Office &amp; logiciel utilisés par l&rsquo;utilisateur)</strong></li>
 <li><strong>Validation du bon fonctionnement avec le client</strong></li>
 </ul>
-<p>La partie utilisateur étant terminée, Nous devions maintenant migrer le logiciel métier utilisé par tous les utilisateurs qui disposerait d&rsquo;un machine virtuelle dédiée sur le serveur, ainsi que les répertoires communs.<br>
+<p>La partie utilisateur étant terminée, Nous devions maintenant migrer le logiciel métier utilisé par tous les utilisateurs qui disposeraient d&rsquo;un machine virtuelle dédiée sur le serveur, ainsi que les répertoires communs.<br>
 Concernant la migration des répertoires communs, nous avons utilisé un outil intégré dans les distributions Windows et se nommant <a href="https://learn.microsoft.com/fr-fr/windows-server/administration/windows-commands/robocopy"   target="_blank">
     Robocopy</a>.<br>
-La volumétrie des données étant importante et l&rsquo;ancien serveur disposant d&rsquo;un vieux disque dur, l&rsquo;importation fût très longue, nous l&rsquo;avions laissé tourné la nuit.</p>
+La volumétrie des données étant importante et l&rsquo;ancien serveur disposant d&rsquo;un vieux disque dur, l&rsquo;importation fût très longue, nous l&rsquo;avons laissé tourné la nuit.</p>
 <p>Concernant la migration du logiciel métier, nous avons directement appeller l&rsquo;éditeur du logiciel. Il s&rsquo;est occupé de la partie installation et migration de la base de données.</p>
 <p>Une fois que tout fût opérationnel, nous avons donc débrancher et enlever l&rsquo;ancien serveur.</p>
 <p>Cette migration a durée deux jours, à deux techniciens.</p>
